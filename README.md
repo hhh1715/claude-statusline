@@ -2,10 +2,7 @@
 
 在 Claude Code 對話框下面加上一條雙行狀態列:
 
-```
- Opus 4.8  main *3  my-repo  +120/-30    $1.24  5:32
- CTX ███████░░░░░░░░ 47% 1M  | RL ███░░░░░░░ 32%
-```
+![status line demo](statusline-demo.png)
 
 第一行: 模型 / git branch(含未提交檔案數) / 目前資料夾 / 本次新增刪除行數 / 花費 / 耗時
 第二行: context 使用量進度條 + 5 小時 rate limit 進度條
